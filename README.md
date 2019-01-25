@@ -1,4 +1,4 @@
 # Add-DeploymentLinks-Test
 foo
 
-bar2
+bar
