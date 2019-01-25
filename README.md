@@ -2,5 +2,3 @@
 foo
 
 bar
-
-baz
