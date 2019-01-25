@@ -1,5 +1,5 @@
 language: cpp
-script: exit 0
+script: echo "Deployed the output to https://transfer.sh/y4oYk/Mudlet-3.16.1-testing-PR2218-397d8a7.dmg"
 matrix:
   include:
   - os: osx
