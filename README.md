@@ -3,4 +3,4 @@ foo
 
 bar
 
-baz3
+baz1
