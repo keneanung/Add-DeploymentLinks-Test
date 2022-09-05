@@ -6,7 +6,7 @@ build_script:
     echo "Deployed the output to $DEPLOY_URL"
     
     $STATS = @"
-           lang_CNTRY    trnsl  utrnsl  finish  unfin  total  done
+       lang_CNTRY    trnsl  utrnsl  finish  unfin  total  done
     *    en_US          14       0      14      0     14  100%
     *    ru_RU        2319      45    2319      0   2364   98%
     *    it_IT        2331      33    2331      0   2364   98%
