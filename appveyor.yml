@@ -4,3 +4,31 @@ build_script:
     $DEPLOY_URL = "https://ci.appveyor.com/api/buildjobs/$Env:APPVEYOR_JOB_ID/artifacts/src%2Fmudlet.zip"
     
     echo "Deployed the output to $DEPLOY_URL"
+    
+    $STATS = @"
+           lang_CNTRY    trnsl  utrnsl  finish  unfin  total  done
+    *    en_US          14       0      14      0     14  100%
+    *    ru_RU        2319      45    2319      0   2364   98%
+    *    it_IT        2331      33    2331      0   2364   98%
+    *    de_DE        2275      89    2275      0   2364   96%
+    *    zh_CN        2265      99    2265      0   2364   95%
+         pl_PL        2134     230    2134      0   2364   90%
+         zh_TW        1765     599    1765      0   2364   74%
+         en_GB        1397     967    1397      0   2364   59%
+         es_ES         868    1496     868      0   2364   36%
+         fr_FR         618    1746     618      0   2364   26%
+         pt_PT         389    1975     389      0   2364   16%
+         pt_BR         371    1993     371      0   2364   15%
+         nl_NL         236    2128     236      0   2364    9%
+         tr_TR         198    2166     198      0   2364    8%
+         ar_SA          70    2294      70      0   2364    2%
+         sv_SE          55    2309      55      0   2364    2%
+         fi_FI          39    2325      39      0   2364    1%
+         en_PT           0    2364       0      0   2364    0%
+         el_GR           1    2363       1      0   2364    0%
+         ar_EG          12    2285      12      0   2297    0%
+         yd_YD           1    2264       1      0   2265    0%
+         en_XY           1    2363       1      0   2364    0%
+     "@
+     
+     rcho "$STATS"
