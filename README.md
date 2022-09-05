@@ -3,4 +3,4 @@ foo
 
 bar
 
-baz2 v v     
+baz2 
