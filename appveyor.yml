@@ -30,5 +30,3 @@ build_script:
          yd_YD           1    2264       1      0   2265    0%
          en_XY           1    2363       1      0   2364    0%
     "@
-     
-    echo "$STATS"
