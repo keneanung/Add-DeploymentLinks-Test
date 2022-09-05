@@ -31,4 +31,4 @@ build_script:
          en_XY           1    2363       1      0   2364    0%
      "@
      
-     rcho "$STATS"
+     echo "$STATS"
